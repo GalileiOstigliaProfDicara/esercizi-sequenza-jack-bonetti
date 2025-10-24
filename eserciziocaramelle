@@ -1,0 +1,17 @@
+//Dato un numero di caramelle da dividere per un certo numero di amici, che ne devono
+// ricevere tutti lo stesso numero, dire quante caramelle verranno date a testa e quante ne rimangono non dis
+
+
+#include <stdio.h>
+
+int main() {
+    int numero_caramelle, numero_amici, caramelle_date, caramelle_avanzate;
+
+    printf("inserisci il numero di caramelle iniziale:");
+    scanf("%d", &numero_caramelle);
+
+    printf("inserisci il numero di amici:");
+    scanf("%d", &numero_amici);
+
+    caramelle_date = numero_caramelle/numero_amici;
+    printf("")
