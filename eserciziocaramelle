@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 int main() {
-    int numero_caramelle, numero_amici, caramelle_date, caramelle_avanzate;
+    int numero_caramelle, numero_amici, caramelle_atesta, caramelle_avanzate;
 
     printf("inserisci il numero di caramelle iniziale:");
     scanf("%d", &numero_caramelle);
@@ -13,5 +13,12 @@ int main() {
     printf("inserisci il numero di amici:");
     scanf("%d", &numero_amici);
 
-    caramelle_date = numero_caramelle/numero_amici;
-    printf("")
+    caramelle_atesta = numero_caramelle/numero_amici;
+    printf("ogni amico ha ricevuto %d caramelle\n, caramelle_atesta")
+
+    caramelle_avanzate = numero_caramelle - (caramelle_atesta*numero_amici)
+    printf("sono avanzate %d caramelle\n, caramelle_avanzate");
+
+
+    return 0;
+}
