@@ -1,0 +1,45 @@
+//Richiedi all’utente di inserire tre numeri interi e memorizzali in tre variabili chiamate a b c, fai un programma 
+//che ne scambi il contenuto in modo che alla fine dell’esecuzione ogni variabile contenga quanto inizialmente presente 
+//nella variabile chiamata con la lettera precedente in ordine alfabetico, ad esclusione della a che conterrà il contenuto 
+//di quanto inizialmente presente in c.
+//alla fine la a conterrà la c, la c conterrà la b e la b conterrà la a
+
+#include <stdio.h>
+
+intmain(){
+    int a, b, c, temp;
+
+    printf("inserisci il primo numero intero:");
+    scanf("%d", &a);
+    printf("inserisci il secondo numero intero:");
+    scanf("%d" &b);
+    printf("inserisci il terzo numero intero:");
+    scanf("%d" &c);
+
+    printf("questi sono i valori iniziali\n:");
+    printf("a = %d, a");
+    printf("b = %d, b");
+    printf("c = %d, c");
+   
+   temp=b;
+   b=c;
+   c=a;
+   a=temp;
+
+
+    printf("questi sono i valori dopo la scambio\n:");
+    printf("a=&d", a);
+    printf("b=&d", b);
+    printf("c=&d", c);
+     
+    return0;
+}
+
+    
+
+
+
+
+    
+
+
